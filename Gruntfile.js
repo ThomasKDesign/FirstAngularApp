@@ -43,6 +43,7 @@ module.exports = function (grunt) {
         options: {
           remote: 'git@github.com:thomaskdesign/firstAngularApp.git',
           branch: 'gh-pages'
+        
         }
       }
     },
