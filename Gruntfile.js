@@ -41,7 +41,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:thomaskdesign/firstAngularApp.git',
+          remote: 'git@github.com:thomaskdesign/firstAngularAppApp.git',
           branch: 'gh-pages'
         
         }
@@ -385,7 +385,7 @@ module.exports = function (grunt) {
     ngtemplates: {
       dist: {
         options: {
-          module: 'firstAngularApp',
+          module: 'firstAngularAppApp',
           htmlmin: '<%= htmlmin.dist.options %>',
           usemin: 'scripts/scripts.js'
         },

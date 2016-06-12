@@ -7,7 +7,7 @@
  * # current
  * Factory in the firstAngularAppApp.
  */
-  angular.module('firstAngularApp')
+  angular.module('firstAngularAppApp')
   .factory('current', function ($resource) {
     // Service logic
     // ...
